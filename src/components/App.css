@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Lobster", cursive;
+}
+html {
+	height: 100vh;
+}
+.app {
+	display: grid;
+	grid-template-rows: 1fr 20fr 1fr;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.header {
+	background-color: #0d0918;
+	margin: 0 auto;
+	height: 13rem;
+	width: 100vw;
+}
+
+.header h1 {
+	padding-top: 5px;
+	color: #eaf3ec;
+	text-align: center;
+	padding: 10px;
+	font-size: 2rem;
+}
+
+.header h2 {
+	color: #f1e8e4;
+	text-align: center;
+	padding: 5px;
+	font-size: 1.5rem;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #ccc;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+.image-items-Container {
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #eae6f5;
+}
+.image-items-Container img {
+	height: 20rem;
+	width: 20rem;
+	margin: 0 auto;
+	padding: 10px;
+}
+.select {
+	width: 20rem;
+	font-size: 18px;
+}
+
+.search-option {
+	height: 5rem;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer {
+	height: 10rem;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background-color: #0d0918;
+}
+.footer p {
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	word-spacing: 5px;
+}
+.footer h4 {
+	font-size: 16px;
+	color: #fff;
+	word-spacing: 5px;
+}
