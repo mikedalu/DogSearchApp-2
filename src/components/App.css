@@ -57,7 +57,7 @@ html {
 }
 .image-items-Container img {
 	height: 20rem;
-	width: 20rem;
+	max-width: 20rem;
 	margin: 0 auto;
 	padding: 10px;
 }
